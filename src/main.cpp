@@ -15,7 +15,7 @@ const float R_serie = 10000.0; // Resistencia de 10kΩ en serie
 const float umbralVoltaje = 0.01; // Umbral para descartar mediciones de ruido
 const float K = 1800.0;    // Constante de la celda, ajusta según tu sistema
 
-// Configuración del sensor de temperatura DS18B20
+// Configuración del sensor de temperatura DS18B20 hola 
 const int tempPin = 25;      // Pin del sensor de temperatura DS18B20
 OneWire oneWire(tempPin);
 DallasTemperature sensors(&oneWire);
